@@ -12,7 +12,7 @@ cosmosLib.mkCosmosGoApp {
   goVersion = "1.23";
   src = osmosis-src;
   rev = osmosis-src.rev;
-  vendorHash = "sha256-wiEixpZPbnwMdhyNrQvHz3cLZF/GXJRa7ho0YaAnVuc=";
+  vendorHash = "sha256-7+2eNlsqzUICpapl+ni7/w/Hi4UoJlh0DMhisGzYApY=";
   tags = ["netgo"];
   excludedPackages = ["cl-genesis-positions"];
   engine = "cometbft/cometbft";
